@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiPrimerCRUD", "MiPrimerCRUD\MiPrimerCRUD.csproj", "{70351E02-A16D-407D-9E30-963E13024174}"
+	ProjectSection(ProjectDependencies) = postProject
+		{99881FE5-2466-4017-8082-0D349BEDD355} = {99881FE5-2466-4017-8082-0D349BEDD355}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaInfraestructura", "CapaInfraestructura\CapaInfraestructura.csproj", "{99881FE5-2466-4017-8082-0D349BEDD355}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70351E02-A16D-407D-9E30-963E13024174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70351E02-A16D-407D-9E30-963E13024174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70351E02-A16D-407D-9E30-963E13024174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70351E02-A16D-407D-9E30-963E13024174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99881FE5-2466-4017-8082-0D349BEDD355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99881FE5-2466-4017-8082-0D349BEDD355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99881FE5-2466-4017-8082-0D349BEDD355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99881FE5-2466-4017-8082-0D349BEDD355}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {953BC554-0D0D-455D-84E2-34966F127DCC}
+	EndGlobalSection
+EndGlobal
